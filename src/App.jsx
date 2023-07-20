@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import './App.js';
+import './App.jsx';
 import Navbar from './components/navbar/navbar.jsx';
 import Intro from './components/intro/intro.jsx';
 import Services from './components/Services/services.jsx';
@@ -9,7 +9,7 @@ import Portfolio from './components/Portfolio/portfolio.jsx';
 import Testimonials from './components/Testimonials/testimonials.jsx';
 import Contact from './components/Contacts/contact.jsx';
 import Footer from './components/Footer/footer.jsx';
-import {themeContext} from './context.js'
+import {themeContext} from './context.jsx'
 
 function App() {
   const theme = useContext(themeContext)

@@ -1,8 +1,8 @@
 import React from 'react';
 import './testimonials.css';
-import {Swiper, SwiperSlide} from 'swiper/react'
+import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from 'swiper';
-import 'swiper/css/pagination';
+import "swiper/css/pagination";
 import 'swiper/css';
 import profilePic1 from '../../img/1.jpg';
 import profilePic2 from '../../img/2.jpg';
